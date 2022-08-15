@@ -16,14 +16,16 @@ class AutenticacaoMiddleware
     public function handle($request, Closure $next,$metodo_autenticacao,$perfil)
     {
 
-      echo $metodo_autenticacao.'-'.$perfil."<br />";
+         session_start();
+
+     // echo $metodo_autenticacao.'-'.$perfil."<br />";
 
        if($metodo_autenticacao == 'padrao'){
-        echo "verificar usuario e senha"."<br />";
+         //echo "verificar usuario e senha"."<br />";
        }
 
        if($metodo_autenticacao == 'ldap'){
-        echo "verificar usuario no ad"."<br />";
+        // echo "verificar usuario no ad"."<br />";
        }
 
         if(true){
