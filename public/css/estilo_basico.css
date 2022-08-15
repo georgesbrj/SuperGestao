@@ -1,7 +1,11 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;   
+}
+
+a {
+    text-decoration: none;
 }
 
 p, span {
@@ -158,6 +162,14 @@ button:hover {
     text-align: center;
 }
 
+.titulo-pagina-2 {
+    padding: 70px 0px 10px 0px;
+    margin-bottom: 10px;
+    background-color: #2a9ee2;
+    text-align: center;
+}
+
+
 .informacao-pagina {
     text-align: center;
     margin-top: 30px;
@@ -187,3 +199,25 @@ button:hover {
 .redes-sociais img {
     margin: 0px 15px 0px 15px;
 }
+
+
+
+
+.pagination li{
+    display: inline;
+    padding:10px;
+    margin:5px;
+    background-color: #7ab829;
+    border-radius: 5px;    
+}
+
+.pagination ul{   
+    color:#ffffff;
+    list-style-type: none;     
+}
+
+.page-link {
+    color:#ffffff;
+}
+
+ 
